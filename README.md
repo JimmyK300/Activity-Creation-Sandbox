@@ -59,4 +59,5 @@ http://localhost:5173
 ---
 
 ## Team
-- Minh
+- Cao Chi Minh (head author)
+- Nguyen Duc Gia Huy (technical management)
