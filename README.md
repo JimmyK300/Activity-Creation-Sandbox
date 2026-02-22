@@ -39,9 +39,9 @@ npm run dev
 ## Project Structure
 
 src/
-- components/     → Reusable UI components
-- pages/          → Page-level components
-- layouts/        → Layout wrappers
+- components/     → Reusable UI components (Buttons, Lists)
+- pages/          → Page (Home page, Sign In page)
+- layouts/        → Layout wrappers (<Layout />)
 - services/       → API and business logic
 - hooks/          → Custom React hooks
 - types/          → TypeScript type definitions
