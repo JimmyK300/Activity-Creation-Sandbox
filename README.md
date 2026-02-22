@@ -60,8 +60,8 @@ http://localhost:5173
 
 ## Team Composition
 - Nguyen Quoc Minh (TUTOR)
-- Cao Chi Minh (Project manager)
-- Nguyen Duc Gia Huy (technical manager)
+- Cao Chi Minh (Project Manager)
+- Nguyen Duc Gia Huy (Technical Manager)
 - Ngo Dac Minh (Full-Stack Developer)
 - Le Nguyen Khoi (Full-Stack Developer)
 - Le Tuan Kiet (Full-Stack Developer)
