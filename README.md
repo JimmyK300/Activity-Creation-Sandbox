@@ -3,7 +3,7 @@
 ## Overview
 Activity Creation Sandbox is a web-based application built with React and TypeScript using Vite as the build tool.
 
-This project is part of the CSE Web Design course.
+This is one of the many CSE projects run by HCMUT students, under the total supervision of professor Nguyen Quoc Minh.
 
 ---
 
@@ -18,19 +18,19 @@ This project is part of the CSE Web Design course.
 
 ## Installation
 
-Clone the repository:
+*Clone the repository:
 
-git clone https://github.com/<your-username>/Activity-Creation-Sandbox.git
+git clone https://github.com/JimmyK300/Activity-Creation-Sandbox.git
 
-Navigate into the project:
+*Navigate into the project (cmd):
 
 cd Activity-Creation-Sandbox
 
-Install dependencies:
+*Install dependencies (cmd):
 
 npm install
 
-Start development server:
+*Start development server (cmd):
 
 npm run dev
 
@@ -58,6 +58,7 @@ http://localhost:5173
 
 ---
 
-## Team
+## Team Composition
+- Nguyen Quoc Minh (TUTOR)
 - Cao Chi Minh (head author)
 - Nguyen Duc Gia Huy (technical management)
