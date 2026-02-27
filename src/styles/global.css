@@ -16,9 +16,21 @@ body {
 /* Remove default list & anchor styles */
 ul {
   list-style: none;
+  
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+
+
+.header{
+   display: flex;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-lg);
+    background-color: var(--color-surface-low);
+    border-bottom: 1px solid var(--color-border-base);
+    box-shadow: var(--shadow-sm);
 }
