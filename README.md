@@ -39,9 +39,9 @@ npm run dev
 ## Project Structure
 
 src/
-- components/     → Reusable UI components
-- pages/          → Page-level components
-- layouts/        → Layout wrappers
+- components/     → Reusable UI components (Buttons, Lists)
+- pages/          → Page (Home page, Sign In page)
+- layouts/        → Layout wrappers (<Layout />)
 - services/       → API and business logic
 - hooks/          → Custom React hooks
 - types/          → TypeScript type definitions
@@ -60,5 +60,8 @@ http://localhost:5173
 
 ## Team Composition
 - Nguyen Quoc Minh (TUTOR)
-- Cao Chi Minh (head author)
-- Nguyen Duc Gia Huy (technical management)
+- Cao Chi Minh (Project Manager)
+- Nguyen Duc Gia Huy (Technical Manager)
+- Ngo Dac Minh (Full-Stack Developer)
+- Le Nguyen Khoi (Full-Stack Developer)
+- Le Tuan Kiet (Full-Stack Developer)
