@@ -2,9 +2,7 @@
 
 ## Overview
 Activity Creation Sandbox is a web-based application built with React and TypeScript using Vite as the build tool.
-
-This is one of the many CSE projects run by HCMUT students, under the total supervision of professor Nguyen Quoc Minh.
-
+Teacher can create custom pages with dynamic link with a dynamic text renderer (think of it like Notion).
 ---
 
 ## Tech Stack
@@ -57,6 +55,11 @@ Development server runs at:
 http://localhost:5173
 
 ---
+
+## Basic git rules
+- Never commit to main branch. Main is protected through Github's convection. 
+- Merge must be done through a pull request (also protected).
+- Descriptive branch name and commit message (focus on describing the feature/purpose).
 
 ## Team Composition
 - Nguyen Quoc Minh (TUTOR)
