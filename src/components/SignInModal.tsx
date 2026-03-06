@@ -9,7 +9,7 @@ const SignInModal: React.FC = () => {
     const { login } = useAuth();
     const [isOpen, setIsOpen] = useState(true);
 
-    const handleMockLogin = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const handleMockLogin = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault(); 
         login();
         setIsOpen(false); 
@@ -37,7 +37,7 @@ const SignInModal: React.FC = () => {
                 <div className={styles.content}>
                     <h2 className={styles.title}>Log in</h2>
 
-                    <form action="#" method="POST">
+                    <form onSubmit={handleMockLogin}>
                         <div className={styles.inputGroup}>
                             <input 
                                 type="text" 
@@ -61,7 +61,6 @@ const SignInModal: React.FC = () => {
                             <button 
                                 type="submit"
                                 className={styles.login}
-                                onClick={handleMockLogin}      
                             >
                                 Log in
                             </button>
