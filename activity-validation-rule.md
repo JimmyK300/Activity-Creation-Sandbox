@@ -18,5 +18,5 @@ Restrictions
 
     Cannot end with a hyphen (-)
 
-Min length: 3 character
+Min length: 3 characters
 Max length: 50 characters

@@ -1,10 +1,10 @@
 import { activities } from "../data/activities";
-
+const regex = /^[a-z0-9]+(-[a-z0-9]+)*$/
 export function isValidId(id: string) {
-  const regex = /^[a-z0-9]+(-[a-z0-9]+)*$/
+  
   return id.length >= 3 && id.length <= 50 && regex.test(id)
 }
-export function getActivityById(id:String){
+export function getActivityById(id:string){
   
     return activities.find(a => a.id === id)
 }
