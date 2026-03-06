@@ -17,7 +17,15 @@ export function TestPage() {
 
       <br /><br />
 
-      <Button onClick={() => alert(name)}>
+      <Button
+        onClick={() => {
+          if (process.env.NODE_ENV !== "production") {
+            alert(name);
+          } else {
+            console.log("Submitted name:", name);
+          }
+        }}
+      >
         Submit
       </Button>
     </div>
