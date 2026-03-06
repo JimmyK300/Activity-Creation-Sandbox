@@ -42,6 +42,7 @@ const SignInModal: React.FC = () => {
                             <input 
                                 type="text" 
                                 id="username" 
+                                aria-label="Mobile number, username or email"
                                 placeholder="Mobile number, username or email" 
                                 className={styles.label} 
                                 required
@@ -50,24 +51,29 @@ const SignInModal: React.FC = () => {
                             <input
                                 type="password" 
                                 id="password" 
+                                aria-label = "Password"
                                 placeholder="Password" 
                                 className={styles.label} 
                                 required
                             />
                         </div>
+                        <div className={styles.buttonGroup}>
+                            <button 
+                                type="submit"
+                                className={styles.login}
+                                onClick={handleMockLogin}      
+                            >
+                                Log in
+                            </button>
+                            <button 
+                                type = "button"
+                                className={styles.NewAccount}
+                            >
+                                Create new account
+                            </button>
+                        </div>
                     </form>
 
-                    <div className={styles.buttonGroup}>
-                        <button 
-                            className={styles.login}
-                            onClick={handleMockLogin}      
-                        >
-                            Log in
-                        </button>
-                        <button className={styles.NewAccount}>
-                            Create new account
-                        </button>
-                    </div>
 
                 </div>
             </div>

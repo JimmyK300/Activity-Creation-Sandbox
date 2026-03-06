@@ -1,7 +1,11 @@
 import React from 'react';
+import Header from '../components/Header';
 const  PublicPage: React.FC = () =>{
     return(
-        <h1>This is PublicPage</h1>
+        <div className="public-page-content">
+            <h1>This is Public Page</h1>
+        </div>
+
     )
 }
 export default PublicPage

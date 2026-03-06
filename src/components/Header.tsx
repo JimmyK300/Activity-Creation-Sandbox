@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                     {isAuthenticated ? (
                         <>
                             <li><Link to="/" className={styles.navLink}>Home</Link></li>
-                            <li><Link to="/activity-creation" className={styles.navLink}>Create Activity</Link></li>
+                            <li><Link to="/activity-creation" className={styles.navLink}>Activity Creation</Link></li>
                             <li><Link to="/submission-view" className={styles.navLink}>Submissions</Link></li>
                             <li>
                                 <button onClick={handleLogout} className={`${styles.actionBtn} ${styles.logoutBtn}`}>
