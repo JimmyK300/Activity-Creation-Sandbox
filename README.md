@@ -1,13 +1,14 @@
 # Activity Creation Sandbox
 
 ## Overview
-Activity Creation Sandbox is a web-based application built with React and TypeScript using Vite as the build tool.
 
-This is one of the many CSE projects run by HCMUT students, under the total supervision of professor Nguyen Quoc Minh.
+Activity Creation Sandbox is a web-based application built with React and TypeScript using Vite as the build tool.
+Teacher can create custom pages with dynamic link with a dynamic text renderer (think of it like Notion).
 
 ---
 
 ## Tech Stack
+
 - Vite
 - React
 - TypeScript
@@ -18,19 +19,19 @@ This is one of the many CSE projects run by HCMUT students, under the total supe
 
 ## Installation
 
-*Clone the repository:
+\*Clone the repository:
 
 git clone https://github.com/JimmyK300/Activity-Creation-Sandbox.git
 
-*Navigate into the project (cmd):
+\*Navigate into the project (cmd):
 
 cd Activity-Creation-Sandbox
 
-*Install dependencies (cmd):
+\*Install dependencies (cmd):
 
 npm install
 
-*Start development server (cmd):
+\*Start development server (cmd):
 
 npm run dev
 
@@ -39,14 +40,15 @@ npm run dev
 ## Project Structure
 
 src/
-- components/     → Reusable UI components (Buttons, Lists)
-- pages/          → Page (Home page, Sign In page)
-- layouts/        → Layout wrappers (<Layout />)
-- services/       → API and business logic
-- hooks/          → Custom React hooks
-- types/          → TypeScript type definitions
-- utils/          → Helper functions
-- constants/      → Global constants
+
+- components/ → Reusable UI components (Buttons, Lists)
+- pages/ → Page (Home page, Sign In page)
+- layouts/ → Layout wrappers (<Layout />)
+- services/ → API and business logic
+- hooks/ → Custom React hooks
+- types/ → TypeScript type definitions
+- utils/ → Helper functions
+- constants/ → Global constants
 
 ---
 
@@ -58,7 +60,14 @@ http://localhost:5173
 
 ---
 
+## Basic git rules
+
+- Never commit to main branch. Main is protected through Github's convection.
+- Merge must be done through a pull request (also protected).
+- Descriptive branch name and commit message (focus on describing the feature/purpose).
+
 ## Team Composition
+
 - Nguyen Quoc Minh (TUTOR)
 - Cao Chi Minh (Project Manager)
 - Nguyen Duc Gia Huy (Technical Manager)

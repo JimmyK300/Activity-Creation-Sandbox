@@ -1,4 +1,4 @@
-import { useLocalStorage } from "./useLocalStorage";
+import { useLocalStorage } from './useLocalStorage';
 
 /**
  * Custom hook quản lý trạng thái đăng nhập giả lập (Mock Auth).
@@ -11,18 +11,17 @@ import { useLocalStorage } from "./useLocalStorage";
  * const { isAuthenticated, login, logout } = useAuth();
  */
 
-export function useAuth()
-{
-    // Lưu cờ đăng nhập vào localStorage với chìa khóa 'is_logged_in', mặc định ban đầu là false
-    const [isAuthenticated, setIsAuthenticated] = useLocalStorage<boolean>('is_logged_in', false);
+export function useAuth() {
+  // Lưu cờ đăng nhập vào localStorage với chìa khóa 'is_logged_in', mặc định ban đầu là false
+  const [isAuthenticated, setIsAuthenticated] = useLocalStorage<boolean>('is_logged_in', false);
 
-    // Các hàm helper bọc lại logic set state cho gọn gàng, dễ gọi ở các component khác
-    const login = () => setIsAuthenticated(true);
-    const logout = () => setIsAuthenticated(false);
-    
-    return{
-        isAuthenticated,
-        login, 
-        logout
-    };
+  // Các hàm helper bọc lại logic set state cho gọn gàng, dễ gọi ở các component khác
+  const login = () => setIsAuthenticated(true);
+  const logout = () => setIsAuthenticated(false);
+
+  return {
+    isAuthenticated,
+    login,
+    logout,
+  };
 }
