@@ -1,14 +1,18 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 const AppLayout:React.FC=()=>
 {
     return(
         <div className='layout-wrapper'>
-            <div className='header'>
-                <Link to="/">Home</Link>
-                <Link to="/public">Public</Link>
-            </div> 
-            <Outlet/>
+            <Header />
+            
+            <main >
+                <Outlet />
+            </main>
+            
+            <Footer />
        </div>
     )
 }
