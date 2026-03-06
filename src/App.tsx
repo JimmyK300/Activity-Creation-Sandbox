@@ -1,11 +1,10 @@
-import { TestPage } from "./pages/TestPage";
+import ActivityCreationPage from "./pages/ActivityCreationPage"
 
 function App() {
   return <> 
   <h1>==<b>Activity Creation Sandbox</b> has been initialized==</h1>
   <h2>-<u>New update:</u> Added simple UI-</h2>
-  <TestPage />
-  </>;
+  <ActivityCreationPage/> </>
 }
 
-export default App;
+export default App
