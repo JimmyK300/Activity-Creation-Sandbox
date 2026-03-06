@@ -8,6 +8,7 @@ import SubmissionViewPage from './pages/SubmissionViewPage';
 import AuthGuard from './components/AuthGuard';
 import SignInModal from './components/SignInModal';
 import Activity from './pages/Activity';
+import SubmissionPage from './pages/Submission';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/activity-creation" element={<ActivityCreationPage />} />
           <Route path="/submission-view" element={<SubmissionViewPage />} />
+          <Route path="/submission" element={<SubmissionPage />}/>
         </Route>
 
         <Route path="/public" element={<PublicPage />} />

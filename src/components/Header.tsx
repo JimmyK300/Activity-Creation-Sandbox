@@ -38,6 +38,11 @@ const Header: React.FC = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/submission" className={styles.navLink}>
+                  Submissions
+                </Link>
+              </li>
+              <li>
                 <button
                   onClick={handleLogout}
                   className={`${styles.actionBtn} ${styles.logoutBtn}`}
