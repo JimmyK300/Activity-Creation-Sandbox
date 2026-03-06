@@ -4,6 +4,7 @@ type InputProps = {
   placeholder?: string;
 };
 
+import "./Input.css"
 export function Input({ value, onChange, placeholder }: InputProps) {
   return (
     <input
