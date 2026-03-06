@@ -3,7 +3,7 @@ type InputProps = {
   onChange: (value: string) => void;
   placeholder?: string;
 };
-import "./Input.css";
+import "./Input.css"
 export function Input({ value, onChange, placeholder }: InputProps) {
   return (
     <input
