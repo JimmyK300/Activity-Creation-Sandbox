@@ -4,7 +4,7 @@ import AppLayout from './layouts/AppLayout';
 import HomePage from './pages/HomePage';
 import PublicPage from './pages/PublicPage';
 import ActivityCreationPage from './pages/ActivityCreationPage';
-import SubmissionViewPage from './pages/SubmissionViewPage'; 
+import SubmissionViewPage from './pages/SubmissionViewPage';
 import AuthGuard from './components/AuthGuard';
 import SignInModal from './components/SignInModal';
 import Activity from './pages/Activity';
@@ -22,7 +22,7 @@ const App: React.FC = () => {
         </Route>
 
         <Route path="/public" element={<PublicPage />} />
-        <Route path="/activity/:id" element={<Activity/>}/>
+        <Route path="/activity/:id" element={<Activity />} />
       </Route>
 
       <Route path="*" element={<Navigate to="/login" replace />} />
